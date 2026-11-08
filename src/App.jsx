@@ -77,7 +77,7 @@ export default function App() {
               type="text"
               value={newTaskTitle}
               onChange={(e) => setNewTaskTitle(e.target.value)}
-              placeholder="What needs to be done?"
+              placeholder="Add a task"
               className="flex-1 h-12 bg-white border-slate-200 rounded-xl shadow-sm"
             />
             <Button
